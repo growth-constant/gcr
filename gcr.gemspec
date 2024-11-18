@@ -6,12 +6,12 @@ Gem::Specification.new do |s|
   s.homepage = "https://github.com/mastahyeti/gcr"
   s.licenses = ["MIT"]
 
-  s.add_runtime_dependency "google-protobuf", "~> 3.7"
+  s.add_runtime_dependency "google-protobuf"
 
-  s.add_development_dependency "grpc", "~> 1.10", ">= 1.2.5"
-  s.add_development_dependency "rspec", "~> 3.5", ">= 3.5.0"
-  s.add_development_dependency "rake"
-  s.add_development_dependency "pry"
+  s.add_development_dependency 'grpc', '~> 1.67'
+  s.add_development_dependency 'rspec'
+  s.add_development_dependency 'rake'
+  s.add_development_dependency 'pry'
 
   s.files = Dir["./lib/**/*.rb"]
 
